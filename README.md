@@ -1,24 +1,25 @@
 # Using custom badges
 
-Badges are often a convinent utility to track the status of a project. If you want to add a badge showing your last builds status Shippable provides its own api for bagdes. The api always gives default bagde which will say run is shippable in case your run is succesfull.
+Badges are often a convinent utility to track the status of a project. If you want to add a badge showing your last build's status, Shippable provides its own api for bagdes. The api always gives default badge which will say run is shippable in case your run was successful.
 
 - Default shippable badge image
 
-This is something that you will always not want. It is also possible to have a custom badge of your choice which will display the text you want. For example: If you want to display badge for specific branch with the branch name and indicate that the build is passing.
+This is something that you won't always want. It is also possible that you would like to have a custom badge of your choice which will display the label and color that you want.
+For example: You would like to display a badge for a specific branch with the branch name in the badge itself as shown below.
 
 - build passing
 - master passing
 - dev shippable
 
-This is possible by using shields.io. Shields.io provides an api that will generate a badge with the text your choice for a given run. You will need to pass the runid and your text as query parameters.Here is how your url might look like.
-https://img.shields.io/shippable/runId/branch.svg?field1=value1&field2=value2&field3=value3
+This is possible by using shields.io. Shields.io provides an api that will generate a badge with the text of your choice for a given projectId. You will need to pass the projectId and some query parameters. Here is how your url might look like.
+https://img.shields.io/shippable/:projectId/:branch.svg?field1=value1&field2=value2&field3=value3
 
-Note: You can get the run if from your runs page on shippable.
-Image for runId
+Note: You can get the projectId from your project page on shippable.
+Image for projectId
 
 Following are the various fields that you can use to get your custom badge.
   - successLabel
-  - uccessColor
+  - successColor
   - failLabel
   - failColor
   - cancelledLabel
