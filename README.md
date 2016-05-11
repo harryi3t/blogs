@@ -24,7 +24,6 @@ Image for projectId
 > You can get the projectId from your project page on shippable..
 > <img src="https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png"
 height="100"/>
->
 
  Following are the various fields that you can use to get your custom badge. 
 |    Field  		 	  |                Purpose                   |Default Value|
