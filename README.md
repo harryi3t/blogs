@@ -5,7 +5,7 @@ Badges are often a convinent utility to track the status of a project. If you wa
 <img src="https://cloud.githubusercontent.com/assets/5207331/15181150/2b59af56-17a3-11e6-9c7f-87cefd972d2a.png" height="100"/>
 
 This is something that you won't always want. It is also possible that you would like to have a custom badge of your choice which will display the label and color that you want.
-For example: You would like to display a badge for a specific branch with the branch name in the badge itself as shown below.
+For example: You would like to display a badge for a specific branch with the branch name and its status in the badge itself.
 
 <img src="https://cloud.githubusercontent.com/assets/5207331/15181191/6579542a-17a3-11e6-8818-6132ff28a73b.png"
 height="100"/>
@@ -37,7 +37,7 @@ Following are the various fields that you can use to get your custom badge.
   - inaccessibleLabel
   - inaccessibleColor
 
-Examples here
+#### Below are some of the examples  
 
 [run-shippable]:https://cloud.githubusercontent.com/assets/5207331/15181150/2b59af56-17a3-11e6-9c7f-87cefd972d2a.png
 [build-passing]:https://cloud.githubusercontent.com/assets/5207331/15181191/6579542a-17a3-11e6-8818-6132ff28a73b.png
