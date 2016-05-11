@@ -26,6 +26,7 @@ Image for projectId
 height="100"/>
 
  Following are the various fields that you can use to get your custom badge. 
+ 
 |    Field  		 	  |                Purpose                   |Default Value|
 |---------------------|------------------------------------------|-------------|
 |   label		      |       left text in badge                 | run         |
