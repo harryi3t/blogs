@@ -55,14 +55,6 @@ height="100"/>
 [prod-shippable-color]:https://cloud.githubusercontent.com/assets/5207331/15181303/235dc1f6-17a4-11e6-8619-307a6190fc7b.png
 <!-- http://localhost:8080/shippable/54ee15335ab6cc13528dd1ef.svg?label=production&successLabel=shippable&colorA=%23075E54&successColor=%23128C7E  -->
 
-[2]:https://cloud.githubusercontent.com/assets/5207331/14247587/c1458ae6-fa8c-11e5-8324-f8507c144b32.png
-[3]:https://cloud.githubusercontent.com/assets/5207331/14247750/ebdc027a-fa8d-11e5-8323-1819b47f2848.png
-[4]:https://github.com/badges/shields/blob/master/server.js#L392
-[5]:https://cloud.githubusercontent.com/assets/5207331/15105888/008a8320-15e3-11e6-9eb4-5911e4c67c2b.png
-[6]:https://cloud.githubusercontent.com/assets/5207331/15106842/852c6e6c-15e9-11e6-8232-06e465b55383.png
-[7]:https://cloud.githubusercontent.com/assets/5207331/15137396/43944b78-16a7-11e6-8284-e2d17900f001.png
-[8]:https://github.com/Shippable/heap/issues/63#issuecomment-218074042
-[9]:https://cloud.githubusercontent.com/assets/5207331/15137876/da359918-16a9-11e6-8bc7-ca9aceb9cc8a.png
 [44CC11]:https://cloud.githubusercontent.com/assets/5207331/15141458/ae3a99da-16bd-11e6-9132-bb46875d3fe7.png
 [555555]:https://cloud.githubusercontent.com/assets/5207331/15141509/f8db5d12-16bd-11e6-8e84-8498ef69a596.png
 [DC5F59]:https://cloud.githubusercontent.com/assets/5207331/15141552/3741edf0-16be-11e6-8922-9ae46d633f75.png
