@@ -9,9 +9,9 @@ For example: You would like to display a badge for a specific branch with the br
 
 <img src="https://cloud.githubusercontent.com/assets/5207331/15181191/6579542a-17a3-11e6-8818-6132ff28a73b.png"
 height="100"/>
-- build passing
-- master passing
-- dev shippable
+
+<img src="https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png"
+height="100"/>
 
 This is possible by using shields.io. Shields.io provides an api that will generate a badge with the text of your choice for a given projectId. You will need to pass the projectId and some query parameters. Here is how your url might look like.
 https://img.shields.io/shippable/:projectId/:branch.svg?field1=value1&field2=value2&field3=value3
