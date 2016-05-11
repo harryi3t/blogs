@@ -25,22 +25,26 @@ Image for projectId
 height="100"/>
 
 ###### Following are the various fields that you can use to get your custom badge.
-| 1   |     successLabel | 
-| 2   |     successColor |
-| 3   |     failLabel    |
-| 4   |     failColor    | 
-| 5   |     cancelledLabel |
-| 6   |     cancelledColor |
-| 7   |     unstableLabel | 
-| 8   |     unstableColor |
-| 9   |     pendingLabel |
-| 10   |    pendingColor | 
-| 11  |     skippedLabel |
-| 12  |     skippedColor |
-| 13  |     noBuildLabel | 
-| 14  |     noBuildColor |
-| 15  |     inaccessibleLabel |
-| 16|       inaccessibleColor | 
+|    Field  		 	  |                Purpose                   |Default Value|
+|---------------------|------------------------------------------|-------------|
+|   label		      |       left text in badge                 | run         |
+|  	colarA		 	  | left side color in badge  	        | ![#555555][555555]`   |
+|   successLabel 	  | label when build is passing     		 | shippable   |
+|   successColor 	  | color when build is passing     		 | ![#44CC11][44CC11]   |
+|   failLabel		  | label when build is failing     		 | failing     |
+|   failColor		  | color when build is failing     		 | ![#DC5F59][DC5F59]   |
+|   cancelledLabel	  | label when build is cancelled   		 | cancelled   |
+|   cancelledColor	  | color when build is cancelled   		 | ![#6BAFBD][6BAFBD]   |
+|   unstableLabel	  | label when build is unstable     		 | unstable    |
+|   unstableColor	  | color when build is unstable     		 | ![#CEA61B][CEA61B]   |
+|   pendingLabel	  | label when build is pending     		 | pending     |
+|   pendingColor	  | color when build is pending     		 | ![#5183A0][5183A0]   |
+|   skippedLabel	  | label when build is skipped     		 | skipped     |
+|   skippedColor	  | color when build is skipped     		 | ![#F8A97D][F8A97D]   |
+|   noBuildLabel	  | label when there is no build    		 | none        |
+|   noBuildColor	  | color when there is no build    		 | ![#A1ABAB][A1ABAB]   |
+|   inaccessibleLabel | label when Shippable API is inaccessible | inaccessible|
+|   inaccessibleColor | color when Shippable API is inaccessible | ![#A1ABAB][A1ABAB]   |
 
 
 #### Below are some of the examples  
