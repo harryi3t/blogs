@@ -49,7 +49,7 @@ height="100"/>
 |   inaccessibleColor | color when Shippable API is inaccessible | ![#A1ABAB][A1ABAB]   |
 
 
-#### Below are some of the examples  
+#### Examples   
 ``` http://localhost:8080/shippable/54ee15335ab6cc13528dd1ef.svg?label=production&successLabel=shippable&colorA=%23075E54&successColor=%23128C7E  ```
 
 [run-shippable]:https://cloud.githubusercontent.com/assets/5207331/15181150/2b59af56-17a3-11e6-9c7f-87cefd972d2a.png
