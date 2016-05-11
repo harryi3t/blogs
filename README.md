@@ -13,8 +13,10 @@ height="100"/>
 <img src="https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png"
 height="100"/>
 
-This is possible by using shields.io. Shields.io provides an api that will generate a badge with the text of your choice for a given projectId. You will need to pass the projectId and some query parameters to get your own badge. Here is how your url might look like.
+This is possible by using shields.io. Shields.io provides an api that will generate a badge with the text of your choice for a given projectId. You will need to pass the projectId and some query parameters to get your own badge.Here is how your url might look like.
+```
 https://img.shields.io/shippable/:projectId/:branch.svg?field1=value1&field2=value2&field3=value3
+```
 
 Image for projectId
 > **Note**
@@ -22,9 +24,7 @@ Image for projectId
 > <img src="https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png"
 height="100"/>
 
-### Scenarios
-| No |                                    Requirement                            |
-|-----|-----------------------------------------------------------------------|
+###### Following are the various fields that you can use to get your custom badge.
 | 1   |     successLabel | 
 | 2   |     successColor |
 | 3   |     failLabel    |
