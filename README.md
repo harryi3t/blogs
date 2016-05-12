@@ -14,7 +14,8 @@ height="100"/>
 <img src="https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png"
 height="100"/>
 
-This is possible by using shields.io. Shields.io provides an api that will generate a badge with the text of your choice for a given projectId. You will need to pass the projectId and some query parameters to get your own badge.Here is how your url might look like.
+This is possible by using shields.io. Shields.io provides an api that will generate a badge with the text of your choice for a given projectId. You will need to pass the projectId and few query parameters to get your own badge.Here is how your url might look like.
+
 ```
 https://img.shields.io/shippable/:projectId/:branch.svg?field1=value1&field2=value2&field3=value3
 ```
@@ -49,14 +50,11 @@ height="100"/>
 |   inaccessibleColor | color when Shippable API is inaccessible | ![#A1ABAB][A1ABAB]   |
 
 
-#### Examples   
-``` http://localhost:8080/shippable/54ee15335ab6cc13528dd1ef.svg?label=production&successLabel=shippable&colorA=%23075E54&successColor=%23128C7E  ```
+#### Below is an example of how you can generate a bagde with label as `My label`, color set to "#000" success label set to `Success label` " and success color set to `#3128C7E`.
 
-[run-shippable]:https://cloud.githubusercontent.com/assets/5207331/15181150/2b59af56-17a3-11e6-9c7f-87cefd972d2a.png
-[build-passing]:https://cloud.githubusercontent.com/assets/5207331/15181191/6579542a-17a3-11e6-8818-6132ff28a73b.png
-[prod-shippable]:https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png
-[prod-shippable-color]:https://cloud.githubusercontent.com/assets/5207331/15181303/235dc1f6-17a4-11e6-8619-307a6190fc7b.png
-<!-- http://localhost:8080/shippable/54ee15335ab6cc13528dd1ef.svg?label=production&successLabel=shippable&colorA=%23075E54&successColor=%23128C7E  -->
+``` URL : https://img.shields.io/shippable/54ee15335ab6cc13528dd1ef.svg?label=My label&successLabel=Success label&colorA=#000&successColor=#3128C7E  ```
+
+Image
 
 [44CC11]:https://cloud.githubusercontent.com/assets/5207331/15141458/ae3a99da-16bd-11e6-9132-bb46875d3fe7.png
 [555555]:https://cloud.githubusercontent.com/assets/5207331/15141509/f8db5d12-16bd-11e6-8e84-8498ef69a596.png
