@@ -2,17 +2,14 @@
 
 Badges are often a convenient utility to track the status of a project and if you want to add a badge showing your last build's status, Shippable provides its own api for bagdes. This api always returns default badge which will say run is shippable in case your run was successful.
 
-<img src="https://cloud.githubusercontent.com/assets/5207331/15181150/2b59af56-17a3-11e6-9c7f-87cefd972d2a.png" height="100"/>
-- Shippable default success badge
+<img src="https://cloud.githubusercontent.com/assets/5207331/15181150/2b59af56-17a3-11e6-9c7f-87cefd972d2a.png" height="80"/>
 
 This is something that you always not want. You may like to have a custom badge of your choice which will display the label and color that you want.
 For example: You would like to display a badge for a specific branch with the branch name and its status in the badge itself.
 
-<img src="https://cloud.githubusercontent.com/assets/5207331/15181191/6579542a-17a3-11e6-8818-6132ff28a73b.png"
-height="100"/>
+<img src="https://cloud.githubusercontent.com/assets/5207331/15181191/6579542a-17a3-11e6-8818-6132ff28a73b.png" height="80"/>
 
-<img src="https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png"
-height="100"/>
+<img src="https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png" height="80"/>
 
 This is possible by using shields.io. Shields.io provides an api that will generate a badge with the text of your choice for a given projectId. You will need to pass the projectId and few query parameters to get your own badge.Here is how your url might look like.
 
@@ -52,12 +49,17 @@ height="100"/>
 |   inaccessibleColor | color when Shippable API is inaccessible | ![#A1ABAB][A1ABAB]   |
 
 
+> Note: Since `#` is an special character, you need to encode it while passing in the url. To encode it use `%23`, for example to pass the color `#FF0000` you need to use `label=%23FF0000`
+
 - Below is an example of how you can generate a bagde with label as `My label`, color set to "#000" success label set to `Success label` " and success color set to `#3128C7E`.
 
-``` URL : https://img.shields.io/shippable/54ee15335ab6cc13528dd1ef.svg?label=My label&successLabel=Success label&colorA=#000&successColor=#3128C7E  ```
+``` 
+URL : https://img.shields.io/shippable/54ee15335ab6cc13528dd1ef.svg?label=My%20label&successLabel=Success%20label&colorA=%23000&successColor=%23128C7E
+```
 
-<img src="https://cloud.githubusercontent.com/assets/10843817/15239062/d4783648-18fc-11e6-9c9d-b33a8f774d2e.png"
-height="100"/>
+
+<img src="https://cloud.githubusercontent.com/assets/5207331/15239678/1d32bc64-1902-11e6-84f2-2f1de699b1f0.png" height="80"/>
+
 
 
 [44CC11]:https://cloud.githubusercontent.com/assets/5207331/15141458/ae3a99da-16bd-11e6-9132-bb46875d3fe7.png
