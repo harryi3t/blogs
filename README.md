@@ -23,7 +23,7 @@ https://img.shields.io/shippable/:projectId/:branch.svg?field1=value1&field2=val
 Image for projectId
 > **Note**
 > You can get the projectId from your project page on shippable..
-> <img src="https://cloud.githubusercontent.com/assets/5207331/15181229/a5c83bb8-17a3-11e6-8dbc-faf5e2fbaba3.png"
+> <img src="https://cloud.githubusercontent.com/assets/10843817/15238923/86cffc9c-18fb-11e6-86dd-4841e987eded.png"
 height="100"/>
 
  Following are the various fields that you can use to get your custom badge. 
