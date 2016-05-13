@@ -56,7 +56,7 @@ height="100"/>
 
 ``` URL : https://img.shields.io/shippable/54ee15335ab6cc13528dd1ef.svg?label=My label&successLabel=Success label&colorA=#000&successColor=#3128C7E  ```
 
-<img src="https://cloud.githubusercontent.com/assets/10843817/15239041/9f0e1bf8-18fc-11e6-94e1-2f3a8e474854.png"
+<img src="https://cloud.githubusercontent.com/assets/10843817/15239062/d4783648-18fc-11e6-9c9d-b33a8f774d2e.png"
 height="100"/>
 
 
