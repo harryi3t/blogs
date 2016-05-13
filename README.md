@@ -20,11 +20,13 @@ This is possible by using shields.io. Shields.io provides an api that will gener
 https://img.shields.io/shippable/:projectId/:branch.svg?field1=value1&field2=value2&field3=value3
 ```
 
+
 > **Note**
 > You can get the projectId from your project page on shippable.
 
 > <img src="https://cloud.githubusercontent.com/assets/10843817/15238923/86cffc9c-18fb-11e6-86dd-4841e987eded.png"
 height="100"/>
+
 
  Following are the various fields that you can use to get your custom badge. 
  
