@@ -52,7 +52,7 @@ height="100"/>
 |   inaccessibleColor | color when Shippable API is inaccessible | ![#A1ABAB][A1ABAB]   |
 
 
-#### Below is an example of how you can generate a bagde with label as `My label`, color set to "#000" success label set to `Success label` " and success color set to `#3128C7E`.
+- Below is an example of how you can generate a bagde with label as `My label`, color set to "#000" success label set to `Success label` " and success color set to `#3128C7E`.
 
 ``` URL : https://img.shields.io/shippable/54ee15335ab6cc13528dd1ef.svg?label=My label&successLabel=Success label&colorA=#000&successColor=#3128C7E  ```
 
