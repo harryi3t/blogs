@@ -1,6 +1,6 @@
 # Using custom badges
 
-Badges are often a convinent utility to track the status of a project and if you want to add a badge showing your last build's status, Shippable provides its own api for bagdes. This api always returns default badge which will say run is shippable in case your run was successful.
+Badges are often a convenient utility to track the status of a project and if you want to add a badge showing your last build's status, Shippable provides its own api for bagdes. This api always returns default badge which will say run is shippable in case your run was successful.
 
 <img src="https://cloud.githubusercontent.com/assets/5207331/15181150/2b59af56-17a3-11e6-9c7f-87cefd972d2a.png" height="100"/>
 - Shippable default success badge
